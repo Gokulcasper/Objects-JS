@@ -1,7 +1,7 @@
 // Find a Particular Property in Object
 
 const candidate = {
-  Name: "Gokul",
+  Name: "raj",
   getname() {
     console.log(`This is ${this.Name}`);
   },
