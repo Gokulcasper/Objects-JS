@@ -7,7 +7,7 @@ const candidate = {
   },
 };
 
-// Name is avaiable in object
+// Name is avaiable in object so output is Yes
 
 if ("Name" in candidate) {
   console.log("yes");
@@ -15,7 +15,7 @@ if ("Name" in candidate) {
   console.log("No");
 }
 
-// age is not avaialbe in object
+// age is not avaialbe in object so output is No
 
 if ("age" in candidate) {
   console.log("yes");
